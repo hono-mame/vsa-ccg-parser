@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# uv / poetry
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Research artifacts (track configs/scripts, not generated outputs)
+data/raw/
+data/processed/
+outputs/
+runs/
+wandb/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+
+# Secrets
+.env
+.env.local
