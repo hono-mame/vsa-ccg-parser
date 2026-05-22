@@ -1,5 +1,7 @@
 # vsa-ccg
 
+> Repository: <https://github.com/hono-mame/vsa-ccg-parser>
+
 VSA（Vector Symbolic Architectures, 超高次元表現）による CCG（Combinatory Categorial Grammar）パーサの**重ね合わせ**に関する研究用リポジトリです。
 
 複数の構文解析候補を高次元ベクトル空間上で同時に表現・操作することで、曖昧性のある自然言語文を効率的に並列処理する手法を探求しています。
